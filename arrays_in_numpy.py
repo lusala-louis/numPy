@@ -1,16 +1,16 @@
 import numpy as np
 
-#Creating a 3*3 array with all zeros
+#Initializing a 3*3 array with all zeros
 array1=np.zeros((3,3))
 print(array1)
 print(' ')
 
-#Creating a 2*2 array of all ones
+#Initializing a 2*2 array of all ones
 array2=np.ones((2,2))
 print(array2)
 print(' ')
 
-#Creating a 3*3 constant array
+#Initializing a constant array of any number np.array((shape of the array),number you want to fill array with)
 array3=np.full((3,3),7)
 print(array3)
 print(' ')
