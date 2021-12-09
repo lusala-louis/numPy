@@ -24,3 +24,29 @@ print(' ')
 identityMatrix=np.eye(3)
 print(identityMatrix)
 print(' ')
+
+#Converting a list into an array
+array5=np.array([3,2,1,0])
+print(array5)
+print(' ')
+
+# arange() will create arrays with regularly incrementing values
+array6=np.arange(10)
+print(array6)
+print(' ')
+
+# Create an array of given range with specific data type
+array7= np.arange(1, 8, dtype=np.float64)
+print (array7)
+print(' ')
+array8= np.arange(1, 8,dtype=np.int64)
+print(array8)
+print(' ')
+array9= np.arange(1, 8, 0.1,dtype=np.float64)
+print (array9)
+print(' ')
+
+# linspace() will create arrays with a specified number of items which are spaced equally between the specified beginning and end values
+array10=np.linspace(2.0,4.0,5)
+print(array10)
+print(' ')
